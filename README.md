@@ -332,7 +332,7 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ## 👨‍💻 About the Developer
 
-Built by **[Your Name]** as a demonstration of:
+Built by John Hagedorn as a demonstration of:
 - Multi-agent AI orchestration
 - Healthcare technology integration
 - Full-stack development (React + FastAPI)
