@@ -1,0 +1,158 @@
+{
+  "cardiology": {
+    "specialty_id": "006",
+    "practices": ["195900", "1959222"],
+    "diagnoses": {
+      "chest pain": {
+        "snomed_code": "29857009",
+        "clinical_note": "Patient reports intermittent chest discomfort on exertion. EKG shows non-specific changes. Recommend cardiology evaluation for possible angina."
+      },
+      "hypertension": {
+        "snomed_code": "38341003",
+        "clinical_note": "Elevated BP readings over 140/90 on multiple visits. No end-organ damage noted. Patient requests specialist consultation for medication management."
+      },
+      "arrhythmia": {
+        "snomed_code": "698247007",
+        "clinical_note": "Patient experiencing palpitations and irregular heartbeat. Holter monitor ordered. Cardiology referral for rhythm evaluation."
+      },
+      "heart murmur": {
+        "snomed_code": "88610006",
+        "clinical_note": "Grade 3/6 systolic murmur noted on exam. Echocardiogram recommended. Refer to cardiology for valve assessment."
+      },
+      "shortness of breath": {
+        "snomed_code": "267036007",
+        "clinical_note": "Progressive dyspnea on exertion over past 3 months. Chest X-ray unremarkable. Cardiology evaluation needed to rule out cardiac etiology."
+      }
+    }
+  },
+  "dermatology": {
+    "specialty_id": "012",
+    "practices": ["1959222"],
+    "diagnoses": {
+      "suspicious mole": {
+        "snomed_code": "400210000",
+        "clinical_note": "Patient has atypical nevus on upper back, ABCDE criteria concerning for melanoma. Urgent dermatology referral for biopsy consideration."
+      },
+      "severe acne": {
+        "snomed_code": "278009009",
+        "clinical_note": "Persistent cystic acne unresponsive to topical treatments and oral antibiotics. Considering isotretinoin therapy, dermatology consultation needed."
+      },
+      "psoriasis": {
+        "snomed_code": "9014002",
+        "clinical_note": "Erythematous plaques with silvery scales on elbows and knees. Patient requests biologic therapy. Dermatology referral for advanced treatment options."
+      },
+      "chronic rash": {
+        "snomed_code": "271807003",
+        "clinical_note": "Persistent pruritic rash for 6 months, unresponsive to OTC treatments. Unclear etiology. Dermatology evaluation needed."
+      },
+      "skin lesion": {
+        "snomed_code": "95324001",
+        "clinical_note": "New growth on forearm, rapid expansion noted. Patient concerned about appearance and cancer risk. Dermatology referral for evaluation and possible excision."
+      }
+    }
+  },
+  "primary care": {
+    "specialty_id": "001",
+    "practices": ["1959222"],
+    "diagnoses": {
+      "annual physical": {
+        "snomed_code": "185349003",
+        "clinical_note": "Patient due for annual wellness visit. No acute complaints. Preventive health maintenance and screening needed."
+      },
+      "diabetes management": {
+        "snomed_code": "44054006",
+        "clinical_note": "Type 2 diabetes with suboptimal glucose control. A1C 8.2%. Medication adjustment and lifestyle counseling needed."
+      },
+      "fatigue": {
+        "snomed_code": "84229001",
+        "clinical_note": "Persistent fatigue for 3 months. Initial labs pending. Primary care evaluation for comprehensive workup."
+      },
+      "weight management": {
+        "snomed_code": "238131007",
+        "clinical_note": "Patient requests weight loss consultation. BMI 32. Primary care referral for medical weight management program."
+      },
+      "medication refill": {
+        "snomed_code": "182838006",
+        "clinical_note": "Patient needs refill and review of chronic medications. Blood pressure and cholesterol monitoring indicated."
+      }
+    }
+  },
+  "internal medicine": {
+    "specialty_id": "002",
+    "practices": ["1959222"],
+    "diagnoses": {
+      "abdominal pain": {
+        "snomed_code": "21522001",
+        "clinical_note": "Chronic intermittent abdominal pain, unclear etiology. Initial workup negative. Internal medicine consultation for comprehensive evaluation."
+      },
+      "anemia": {
+        "snomed_code": "271737000",
+        "clinical_note": "Persistent anemia with Hgb 9.5. Iron studies suggest iron deficiency. Internal medicine referral for further evaluation and management."
+      },
+      "thyroid disorder": {
+        "snomed_code": "40930008",
+        "clinical_note": "Abnormal TSH 12.4, suggesting hypothyroidism. Patient symptomatic with fatigue and weight gain. Endocrine evaluation needed."
+      },
+      "joint pain": {
+        "snomed_code": "57676002",
+        "clinical_note": "Polyarticular joint pain with morning stiffness. Inflammatory markers elevated. Internal medicine referral to rule out autoimmune condition."
+      },
+      "chronic cough": {
+        "snomed_code": "68154008",
+        "clinical_note": "Persistent dry cough for 4 months. Chest X-ray normal. Pulmonary function tests ordered. Internal medicine consultation needed."
+      }
+    }
+  },
+  "oncology": {
+    "specialty_id": "020",
+    "practices": ["195900"],
+    "diagnoses": {
+      "abnormal mammogram": {
+        "snomed_code": "116223007",
+        "clinical_note": "Mammogram shows suspicious calcifications BI-RADS 4. Biopsy recommended. Oncology referral for evaluation and treatment planning."
+      },
+      "lymphadenopathy": {
+        "snomed_code": "111590001",
+        "clinical_note": "Persistent enlarged cervical lymph nodes for 2 months. CT scan shows multiple enlarged nodes. Oncology consultation for biopsy and workup."
+      },
+      "abnormal blood counts": {
+        "snomed_code": "165517008",
+        "clinical_note": "Persistent leukocytosis with left shift. Bone marrow biopsy ordered. Hematology-oncology referral for evaluation."
+      },
+      "weight loss": {
+        "snomed_code": "89362005",
+        "clinical_note": "Unintentional 20-pound weight loss over 3 months. CT abdomen shows pancreatic mass. Urgent oncology referral."
+      },
+      "prostate cancer": {
+        "snomed_code": "399068003",
+        "clinical_note": "Elevated PSA 12.4, biopsy shows Gleason 7 adenocarcinoma. Oncology referral for staging and treatment options discussion."
+      }
+    }
+  },
+  "pediatrics": {
+    "specialty_id": "003",
+    "practices": ["195900", "1959222"],
+    "diagnoses": {
+      "developmental delay": {
+        "snomed_code": "248290002",
+        "clinical_note": "18-month-old with speech delay. Not meeting developmental milestones. Pediatric evaluation and early intervention referral needed."
+      },
+      "asthma": {
+        "snomed_code": "195967001",
+        "clinical_note": "Pediatric patient with frequent wheezing episodes. Requiring multiple albuterol treatments. Pediatric pulmonology consultation for asthma action plan."
+      },
+      "failure to thrive": {
+        "snomed_code": "309257005",
+        "clinical_note": "6-month-old infant below 5th percentile for weight. Poor feeding noted. Pediatric evaluation for feeding disorder and nutritional assessment."
+      },
+      "ear infection": {
+        "snomed_code": "128139000",
+        "clinical_note": "Pediatric patient with recurrent ear infections and sinusitis. Immunology workup indicated. Pediatric consultation needed."
+      },
+      "ADHD evaluation": {
+        "snomed_code": "406506008",
+        "clinical_note": "8-year-old with behavioral concerns at school. Teacher reports inattention and hyperactivity. Pediatric referral for ADHD evaluation."
+      }
+    }
+  }
+}

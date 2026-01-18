@@ -1,0 +1,32 @@
+{
+  "pipeline_runs": [
+    {
+      "pipeline_input": {
+        "patient_id": "12345",
+        "encounter_id": "67890",
+        "specialty": "cardiology",
+        "diagnosis": "shortness of breath",
+        "snomed_code": "267036007",
+        "clinical_note": "Progressive dyspnea on exertion over past 3 months. Chest X-ray unremarkable. Cardiology evaluation needed to rule out cardiac etiology."
+      },
+      "appointment_context": {
+        "provider_id": "100",
+        "provider_name": "Dr. Example Provider",
+        "department_id": "150",
+        "department_name": "Example Medical Center",
+        "slots_available": true,
+        "slot_date_range": {
+          "earliest": "2026-03-01",
+          "latest": "2026-03-31"
+        },
+        "created_new_slots": false
+      },
+      "metadata": {
+        "created_at": "2026-01-16T14:00:00.000000",
+        "practice_id": "195900",
+        "encounter_status": "open",
+        "note": "Example data - replace with actual data from your Athena Health sandbox"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+# macOS noise
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Virtualenvs (common names)
+venv/
+.venv
+
+# Environment files – keep only example.env
+.env
+.env.*
+!example.env
+.athena_token.json
+
+# Sensitive data files
+**/message_state/
+**/transcripts/
+patient_data.json
+reusable_data.json
+
+# AWS and API credentials
+*credentials*.json
+*secrets*.json
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Editor directories
+.vscode
+.idea
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo

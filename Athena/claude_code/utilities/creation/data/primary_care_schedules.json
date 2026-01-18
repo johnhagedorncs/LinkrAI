@@ -1,0 +1,191 @@
+{
+  "practice_id": "1959222",
+  "specialty": "Primary Care (General Practice)",
+  "specialty_id": "001",
+  "date_range": {
+    "start": "11/25/2025",
+    "end": "11/28/2025",
+    "days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+    "total_days": 4
+  },
+  "providers": [
+    {
+      "provider_id": "71",
+      "provider_name": "Adam Bricker",
+      "department_id": "145",
+      "department_name": "Belfast",
+      "location": "Belfast, ME",
+      "schedule_type": "Full-time",
+      "schedule_description": "Mon-Fri, 8am-4:30pm (lunch 11:30am-1pm)",
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "total_slots_created": 60,
+      "slots_per_day": 15,
+      "time_blocks": [
+        {
+          "time_range": "08:00-09:00",
+          "appointment_type": "PHYSICAL EXAM",
+          "appointment_type_id": "4",
+          "duration_minutes": 30,
+          "slots_per_day": 2
+        },
+        {
+          "time_range": "09:00-10:00",
+          "appointment_type": "New Patient",
+          "appointment_type_id": "8",
+          "duration_minutes": 30,
+          "slots_per_day": 2
+        },
+        {
+          "time_range": "10:00-12:00",
+          "appointment_type": "Follow Up",
+          "appointment_type_id": "1",
+          "duration_minutes": 30,
+          "slots_per_day": 4
+        },
+        {
+          "time_range": "13:00-14:45",
+          "appointment_type": "Established",
+          "appointment_type_id": "42",
+          "duration_minutes": 15,
+          "slots_per_day": 4
+        },
+        {
+          "time_range": "15:00-16:30",
+          "appointment_type": "Follow Up",
+          "appointment_type_id": "1",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        }
+      ]
+    },
+    {
+      "provider_id": "101",
+      "provider_name": "Adam Bricker",
+      "department_id": "148",
+      "department_name": "Testing Dept",
+      "location": "Queensbury, NY",
+      "schedule_type": "Part-time",
+      "schedule_description": "Mon/Wed/Fri, 9am-5pm (lunch 12-2pm)",
+      "working_days": ["Wednesday", "Friday"],
+      "total_slots_created": 24,
+      "slots_per_day": 12,
+      "time_blocks": [
+        {
+          "time_range": "09:00-10:30",
+          "appointment_type": "Consult",
+          "appointment_type_id": "62",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        },
+        {
+          "time_range": "10:30-12:00",
+          "appointment_type": "Follow Up",
+          "appointment_type_id": "1",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        },
+        {
+          "time_range": "14:00-15:15",
+          "appointment_type": "Established",
+          "appointment_type_id": "42",
+          "duration_minutes": 15,
+          "slots_per_day": 3
+        },
+        {
+          "time_range": "15:30-17:00",
+          "appointment_type": "Follow Up",
+          "appointment_type_id": "1",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        }
+      ]
+    },
+    {
+      "provider_id": "120",
+      "provider_name": "Erik Pekkala",
+      "department_id": "162",
+      "department_name": "MAIN OFFICE - NY",
+      "location": "Queensbury, NY",
+      "schedule_type": "Part-time",
+      "schedule_description": "Tue/Thu, 10am-5:30pm (working lunch)",
+      "working_days": ["Tuesday", "Thursday"],
+      "total_slots_created": 28,
+      "slots_per_day": 14,
+      "time_blocks": [
+        {
+          "time_range": "10:00-11:00",
+          "appointment_type": "Consult",
+          "appointment_type_id": "62",
+          "duration_minutes": 30,
+          "slots_per_day": 2
+        },
+        {
+          "time_range": "11:00-12:30",
+          "appointment_type": "New Patient",
+          "appointment_type_id": "8",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        },
+        {
+          "time_range": "13:00-14:30",
+          "appointment_type": "Follow Up",
+          "appointment_type_id": "1",
+          "duration_minutes": 30,
+          "slots_per_day": 3
+        },
+        {
+          "time_range": "14:30-17:15",
+          "appointment_type": "Established",
+          "appointment_type_id": "42",
+          "duration_minutes": 15,
+          "slots_per_day": 6
+        }
+      ]
+    }
+  ],
+  "appointment_types": [
+    {
+      "appointment_type_id": "1",
+      "name": "Follow Up",
+      "duration_minutes": 30,
+      "used_for_diagnoses": ["Diabetes management", "Fatigue", "Weight management"]
+    },
+    {
+      "appointment_type_id": "4",
+      "name": "PHYSICAL EXAM",
+      "duration_minutes": 30,
+      "used_for_diagnoses": ["Annual physical"]
+    },
+    {
+      "appointment_type_id": "8",
+      "name": "New Patient Appointment",
+      "duration_minutes": 30,
+      "used_for_diagnoses": ["Fatigue (new patients)"]
+    },
+    {
+      "appointment_type_id": "42",
+      "name": "Established",
+      "duration_minutes": 15,
+      "used_for_diagnoses": ["Diabetes management (quick checks)"]
+    },
+    {
+      "appointment_type_id": "62",
+      "name": "Consult",
+      "duration_minutes": 30,
+      "used_for_diagnoses": ["Weight management"]
+    }
+  ],
+  "summary": {
+    "total_providers": 3,
+    "total_departments": 3,
+    "total_appointment_slots": 112,
+    "unique_appointment_types": 5,
+    "distribution_by_type": {
+      "1": {"name": "Follow Up", "count": 46},
+      "4": {"name": "PHYSICAL EXAM", "count": 8},
+      "8": {"name": "New Patient", "count": 20},
+      "42": {"name": "Established", "count": 34},
+      "62": {"name": "Consult", "count": 10}
+    }
+  }
+}

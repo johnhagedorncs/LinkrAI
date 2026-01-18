@@ -1,0 +1,2124 @@
+{
+  "provider_specialty_pairs": [
+    {
+      "provider_id": 1911,
+      "provider_name": "Bryan Adamczyk",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2297,
+      "provider_name": "Hassan Ali Shah",
+      "specialty": "Pediatric Gynecology",
+      "specialty_id": 990
+    },
+    {
+      "provider_id": 2298,
+      "provider_name": "Hassan Ali Shah",
+      "specialty": "Pediatric Gynecology",
+      "specialty_id": 990
+    },
+    {
+      "provider_id": 2076,
+      "provider_name": "Woody Allen",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1857,
+      "provider_name": "Raviteja Annadanam",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1916,
+      "provider_name": "Raviteja Annadanam",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1724,
+      "provider_name": "Medical Assistant",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2012,
+      "provider_name": "Medical Assistant",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2056,
+      "provider_name": "Medical Assistant",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1932,
+      "provider_name": "Athenaprov15 Athenaprov15",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1934,
+      "provider_name": "Athenaprov17 Athenaprov17",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1935,
+      "provider_name": "Athenaprov18 Athenaprov18",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1936,
+      "provider_name": "Athenaprov19 Athenaprov19",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1937,
+      "provider_name": "Athenaprov20 Athenaprov20",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1938,
+      "provider_name": "Athenaprov21 Athenaprov21",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2088,
+      "provider_name": "B B",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 332,
+      "provider_name": "Benjamin Bak",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 75,
+      "provider_name": "Gayle Baumbach",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 358,
+      "provider_name": "Kimberly Bazar",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 198,
+      "provider_name": "Katherine Blenko",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 71,
+      "provider_name": "Adam Bricker",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2270,
+      "provider_name": "Vivek Bindra",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1,
+      "provider_name": "Camille Cartwright",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 111,
+      "provider_name": "Camilla Cremin",
+      "specialty": "Pediatric Medicine",
+      "specialty_id": "037"
+    },
+    {
+      "provider_id": 2274,
+      "provider_name": "Saim Doctor",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 1924,
+      "provider_name": "John Doe",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 133,
+      "provider_name": "Anissa Durgan",
+      "specialty": "Allergy/Immunology",
+      "specialty_id": "003"
+    },
+    {
+      "provider_id": 2291,
+      "provider_name": "Provider Dec",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2137,
+      "provider_name": "Mahendra Dhoni",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2113,
+      "provider_name": "Good Doctor",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2288,
+      "provider_name": "Example Doctor",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2277,
+      "provider_name": "Bob Doctores",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2253,
+      "provider_name": "John Doe",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2336,
+      "provider_name": "Hadley Feil",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2286,
+      "provider_name": "Andrew Friedman",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2194,
+      "provider_name": "Gandalf Grayhame",
+      "specialty": "Pediatric Surgery",
+      "specialty_id": 618
+    },
+    {
+      "provider_id": 2206,
+      "provider_name": "Stephen_patch Hester_patch",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2292,
+      "provider_name": "Christian Herman",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2285,
+      "provider_name": "Michael Hopson",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 325,
+      "provider_name": "Maurice Johnson",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2276,
+      "provider_name": "Nikhil Jain",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2100,
+      "provider_name": "Richard Jimenez",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2349,
+      "provider_name": "Due John",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2301,
+      "provider_name": "Dick Julie",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 101,
+      "provider_name": "Grayce Kiehn",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 168,
+      "provider_name": "Euna Kris",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 112,
+      "provider_name": "John Lewis",
+      "specialty": "Allergy/Immunology",
+      "specialty_id": "003"
+    },
+    {
+      "provider_id": 68,
+      "provider_name": "Ada Little",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2232,
+      "provider_name": "Jess Landry",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2239,
+      "provider_name": "Landry23",
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625
+    },
+    {
+      "provider_id": 2240,
+      "provider_name": "Landry23",
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625
+    },
+    {
+      "provider_id": 2267,
+      "provider_name": "Tirion Lannister",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2328,
+      "provider_name": "Nurse Lead",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2330,
+      "provider_name": "Nurse Lead",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2115,
+      "provider_name": "Abel Lemare",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2212,
+      "provider_name": "Medscan",
+      "specialty": "Internal Medicine",
+      "specialty_id": "011"
+    },
+    {
+      "provider_id": 2163,
+      "provider_name": "Test First Name Schedule Test Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2287,
+      "provider_name": "David Maxfield",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2293,
+      "provider_name": "Neel Mehta",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2266,
+      "provider_name": "John Michel",
+      "specialty": "Neonatology",
+      "specialty_id": 100
+    },
+    {
+      "provider_id": 2248,
+      "provider_name": "Poorav Modi",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2241,
+      "provider_name": "Newtest",
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625
+    },
+    {
+      "provider_id": 2326,
+      "provider_name": "Patient Case Testing",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2327,
+      "provider_name": "Patient Case Testing",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2335,
+      "provider_name": "Patientmessaging",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 344,
+      "provider_name": "Arun Patil",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2280,
+      "provider_name": "Neel Patel",
+      "specialty": "Orthopedic Surgery",
+      "specialty_id": "020"
+    },
+    {
+      "provider_id": 2260,
+      "provider_name": "Hc Provider",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2261,
+      "provider_name": "Hc 2 Provider",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2262,
+      "provider_name": "Hc 3 Provider",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2111,
+      "provider_name": "Dummy Qa",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 23,
+      "provider_name": "Carter Rome",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 1858,
+      "provider_name": "John Smith",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 27,
+      "provider_name": "Elsa Spinka",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2284,
+      "provider_name": "Comron Saifi",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2294,
+      "provider_name": "Ryunosuke Saito",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2295,
+      "provider_name": "Ryunosuke Saito",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2275,
+      "provider_name": "Silas Santana",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2278,
+      "provider_name": "Jon Smith",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2279,
+      "provider_name": "June Smith",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2268,
+      "provider_name": "John Snow",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2281,
+      "provider_name": "David Sun",
+      "specialty": "Orthopedic Surgery Total Joint",
+      "specialty_id": 720
+    },
+    {
+      "provider_id": 1923,
+      "provider_name": "Mahesh Teja",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2138,
+      "provider_name": "Sachin Tendulkar",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2116,
+      "provider_name": "Brian Test",
+      "specialty": "Cardiology",
+      "specialty_id": "006"
+    },
+    {
+      "provider_id": 2289,
+      "provider_name": "Provider Test",
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625
+    },
+    {
+      "provider_id": 2290,
+      "provider_name": "Provider Testpch",
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625
+    },
+    {
+      "provider_id": 2332,
+      "provider_name": "Testfirstname Testlastname",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2333,
+      "provider_name": "Testfirstname1 Testlastname1",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2334,
+      "provider_name": "Testfirstname2 Testlastname2",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2355,
+      "provider_name": "Rishi Vyas",
+      "specialty": "Ayurveda Medicine",
+      "specialty_id": 912
+    },
+    {
+      "provider_id": 1847,
+      "provider_name": "Bruce Wayne",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 166,
+      "provider_name": "Rowland Wehner",
+      "specialty": "Hospitalist",
+      "specialty_id": 104
+    },
+    {
+      "provider_id": 2114,
+      "provider_name": "Meenal S Werty",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2117,
+      "provider_name": "User1234 Werty",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2283,
+      "provider_name": "George Walker",
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635
+    },
+    {
+      "provider_id": 2197,
+      "provider_name": "Rowland Wehner",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2282,
+      "provider_name": "Chia Wu",
+      "specialty": "Orthopaedic Surgery - Hand",
+      "specialty_id": "040"
+    },
+    {
+      "provider_id": 2110,
+      "provider_name": "Radha Xyz",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2091,
+      "provider_name": "John Yevinoh561@Ztymm.Com",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 235,
+      "provider_name": "Marya Zlatnik",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2242,
+      "provider_name": "Zero Provider Zero Provider",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2243,
+      "provider_name": "Zero Provider Zero Provider",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2347,
+      "provider_name": "Devss Dev",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2346,
+      "provider_name": "Nitesh Developoer",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2108,
+      "provider_name": "Best Doctor",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2112,
+      "provider_name": "Athena Doctor",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2254,
+      "provider_name": "Test Doctor",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2255,
+      "provider_name": "New Doctor",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2107,
+      "provider_name": "New Doctore",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2203,
+      "provider_name": "Doeee Johnn",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2210,
+      "provider_name": "Chan Kim",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2211,
+      "provider_name": "Chan Kim",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2155,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2156,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2158,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2159,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2160,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2161,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2162,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2165,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2166,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2167,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2168,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2169,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2170,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2171,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2172,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2173,
+      "provider_name": "Test First Name Minim Laboris Eiusmod",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2109,
+      "provider_name": "Nevage",
+      "specialty": "Acupuncture",
+      "specialty_id": 660
+    },
+    {
+      "provider_id": 2136,
+      "provider_name": "Tejas Nevage",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2191,
+      "provider_name": "Commodo Non",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2193,
+      "provider_name": "Commodo Non",
+      "specialty": "Family Medicine",
+      "specialty_id": "008"
+    },
+    {
+      "provider_id": 2300,
+      "provider_name": "Adipisicing Ea Ni Nostrud Ad",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2208,
+      "provider_name": "Chan Park",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2209,
+      "provider_name": "Chanyeol Park",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2246,
+      "provider_name": "Anant Sirsath",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2247,
+      "provider_name": "Anant Sirsath",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2271,
+      "provider_name": "Previsit Test",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2272,
+      "provider_name": "Previsit Test",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2198,
+      "provider_name": "Rohan Verma",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2199,
+      "provider_name": "Doctor Verma",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2174,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2175,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2176,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2177,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2179,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2180,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2181,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2184,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2185,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2186,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2187,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2188,
+      "provider_name": "Lee Wook",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 261,
+      "provider_name": "Richard",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 1918,
+      "provider_name": "Adison",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2072,
+      "provider_name": "Ashutosh",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2087,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2102,
+      "provider_name": "Burgess_m",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2103,
+      "provider_name": "Kelly_f",
+      "specialty": "Bone Marrow Transplant",
+      "specialty_id": 636
+    },
+    {
+      "provider_id": 2105,
+      "provider_name": "Av",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2128,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2129,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2130,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2140,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2141,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2145,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2147,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2148,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2150,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2151,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2152,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2153,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2154,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2157,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2192,
+      "provider_name": "Dd",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2195,
+      "provider_name": "Test",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2196,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2200,
+      "provider_name": "",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2205,
+      "provider_name": "Test_case_0002",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2207,
+      "provider_name": "Young",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2231,
+      "provider_name": "Tommy",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2249,
+      "provider_name": "Max",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2250,
+      "provider_name": "Synchromedics",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2251,
+      "provider_name": "Test1",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2252,
+      "provider_name": "Synchromedics",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2256,
+      "provider_name": "Kyle",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2257,
+      "provider_name": "Calvin",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2258,
+      "provider_name": "Calvin",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2259,
+      "provider_name": "Phil",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2263,
+      "provider_name": "Sheldon",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2264,
+      "provider_name": "Amy",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2269,
+      "provider_name": "Johndoe",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2331,
+      "provider_name": "Katie",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2344,
+      "provider_name": "Nitesh",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2345,
+      "provider_name": "Nitesh",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2350,
+      "provider_name": "Askar",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2351,
+      "provider_name": "Askar",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    },
+    {
+      "provider_id": 2353,
+      "provider_name": "Adipisicing Ea Ni1 3dummy",
+      "specialty": "No specialty listed",
+      "specialty_id": ""
+    }
+  ],
+  "specialty_summary": [
+    {
+      "specialty": "Acupuncture",
+      "specialty_id": 660,
+      "provider_count": 9,
+      "providers": [
+        {
+          "id": 2291,
+          "name": "Provider Dec"
+        },
+        {
+          "id": 2336,
+          "name": "Hadley Feil"
+        },
+        {
+          "id": 2327,
+          "name": "Patient Case Testing"
+        },
+        {
+          "id": 2114,
+          "name": "Meenal S Werty"
+        },
+        {
+          "id": 2117,
+          "name": "User1234 Werty"
+        },
+        {
+          "id": 2110,
+          "name": "Radha Xyz"
+        },
+        {
+          "id": 2347,
+          "name": "Devss Dev"
+        },
+        {
+          "id": 2346,
+          "name": "Nitesh Developoer"
+        },
+        {
+          "id": 2109,
+          "name": "Nevage"
+        }
+      ]
+    },
+    {
+      "specialty": "Adolescent Medicine",
+      "specialty_id": 635,
+      "provider_count": 7,
+      "providers": [
+        {
+          "id": 2288,
+          "name": "Example Doctor"
+        },
+        {
+          "id": 2277,
+          "name": "Bob Doctores"
+        },
+        {
+          "id": 2286,
+          "name": "Andrew Friedman"
+        },
+        {
+          "id": 2285,
+          "name": "Michael Hopson"
+        },
+        {
+          "id": 2287,
+          "name": "David Maxfield"
+        },
+        {
+          "id": 2284,
+          "name": "Comron Saifi"
+        },
+        {
+          "id": 2283,
+          "name": "George Walker"
+        }
+      ]
+    },
+    {
+      "specialty": "Allergy/Immunology",
+      "specialty_id": "003",
+      "provider_count": 2,
+      "providers": [
+        {
+          "id": 133,
+          "name": "Anissa Durgan"
+        },
+        {
+          "id": 112,
+          "name": "John Lewis"
+        }
+      ]
+    },
+    {
+      "specialty": "Ambulatory Surgical Center",
+      "specialty_id": 625,
+      "provider_count": 5,
+      "providers": [
+        {
+          "id": 2239,
+          "name": "Landry23"
+        },
+        {
+          "id": 2240,
+          "name": "Landry23"
+        },
+        {
+          "id": 2241,
+          "name": "Newtest"
+        },
+        {
+          "id": 2289,
+          "name": "Provider Test"
+        },
+        {
+          "id": 2290,
+          "name": "Provider Testpch"
+        }
+      ]
+    },
+    {
+      "specialty": "Ayurveda Medicine",
+      "specialty_id": 912,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2355,
+          "name": "Rishi Vyas"
+        }
+      ]
+    },
+    {
+      "specialty": "Bone Marrow Transplant",
+      "specialty_id": 636,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2103,
+          "name": "Kelly_f"
+        }
+      ]
+    },
+    {
+      "specialty": "Cardiology",
+      "specialty_id": "006",
+      "provider_count": 7,
+      "providers": [
+        {
+          "id": 168,
+          "name": "Euna Kris"
+        },
+        {
+          "id": 2115,
+          "name": "Abel Lemare"
+        },
+        {
+          "id": 2326,
+          "name": "Patient Case Testing"
+        },
+        {
+          "id": 27,
+          "name": "Elsa Spinka"
+        },
+        {
+          "id": 2278,
+          "name": "Jon Smith"
+        },
+        {
+          "id": 2279,
+          "name": "June Smith"
+        },
+        {
+          "id": 2116,
+          "name": "Brian Test"
+        }
+      ]
+    },
+    {
+      "specialty": "Family Medicine",
+      "specialty_id": "008",
+      "provider_count": 13,
+      "providers": [
+        {
+          "id": 71,
+          "name": "Adam Bricker"
+        },
+        {
+          "id": 1,
+          "name": "Camille Cartwright"
+        },
+        {
+          "id": 2274,
+          "name": "Saim Doctor"
+        },
+        {
+          "id": 2293,
+          "name": "Neel Mehta"
+        },
+        {
+          "id": 2335,
+          "name": "Patientmessaging"
+        },
+        {
+          "id": 23,
+          "name": "Carter Rome"
+        },
+        {
+          "id": 2294,
+          "name": "Ryunosuke Saito"
+        },
+        {
+          "id": 2295,
+          "name": "Ryunosuke Saito"
+        },
+        {
+          "id": 2156,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2160,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2161,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2191,
+          "name": "Commodo Non"
+        },
+        {
+          "id": 2193,
+          "name": "Commodo Non"
+        }
+      ]
+    },
+    {
+      "specialty": "Hospitalist",
+      "specialty_id": 104,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 166,
+          "name": "Rowland Wehner"
+        }
+      ]
+    },
+    {
+      "specialty": "Internal Medicine",
+      "specialty_id": "011",
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2212,
+          "name": "Medscan"
+        }
+      ]
+    },
+    {
+      "specialty": "Neonatology",
+      "specialty_id": 100,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2266,
+          "name": "John Michel"
+        }
+      ]
+    },
+    {
+      "specialty": "No specialty listed",
+      "specialty_id": "",
+      "provider_count": 144,
+      "providers": [
+        {
+          "id": 1911,
+          "name": "Bryan Adamczyk"
+        },
+        {
+          "id": 2076,
+          "name": "Woody Allen"
+        },
+        {
+          "id": 1857,
+          "name": "Raviteja Annadanam"
+        },
+        {
+          "id": 1916,
+          "name": "Raviteja Annadanam"
+        },
+        {
+          "id": 1724,
+          "name": "Medical Assistant"
+        },
+        {
+          "id": 2012,
+          "name": "Medical Assistant"
+        },
+        {
+          "id": 2056,
+          "name": "Medical Assistant"
+        },
+        {
+          "id": 1932,
+          "name": "Athenaprov15 Athenaprov15"
+        },
+        {
+          "id": 1934,
+          "name": "Athenaprov17 Athenaprov17"
+        },
+        {
+          "id": 1935,
+          "name": "Athenaprov18 Athenaprov18"
+        },
+        {
+          "id": 1936,
+          "name": "Athenaprov19 Athenaprov19"
+        },
+        {
+          "id": 1937,
+          "name": "Athenaprov20 Athenaprov20"
+        },
+        {
+          "id": 1938,
+          "name": "Athenaprov21 Athenaprov21"
+        },
+        {
+          "id": 2088,
+          "name": "B B"
+        },
+        {
+          "id": 332,
+          "name": "Benjamin Bak"
+        },
+        {
+          "id": 75,
+          "name": "Gayle Baumbach"
+        },
+        {
+          "id": 358,
+          "name": "Kimberly Bazar"
+        },
+        {
+          "id": 198,
+          "name": "Katherine Blenko"
+        },
+        {
+          "id": 2270,
+          "name": "Vivek Bindra"
+        },
+        {
+          "id": 1924,
+          "name": "John Doe"
+        },
+        {
+          "id": 2137,
+          "name": "Mahendra Dhoni"
+        },
+        {
+          "id": 2113,
+          "name": "Good Doctor"
+        },
+        {
+          "id": 2253,
+          "name": "John Doe"
+        },
+        {
+          "id": 2206,
+          "name": "Stephen_patch Hester_patch"
+        },
+        {
+          "id": 2292,
+          "name": "Christian Herman"
+        },
+        {
+          "id": 325,
+          "name": "Maurice Johnson"
+        },
+        {
+          "id": 2276,
+          "name": "Nikhil Jain"
+        },
+        {
+          "id": 2100,
+          "name": "Richard Jimenez"
+        },
+        {
+          "id": 2349,
+          "name": "Due John"
+        },
+        {
+          "id": 2301,
+          "name": "Dick Julie"
+        },
+        {
+          "id": 101,
+          "name": "Grayce Kiehn"
+        },
+        {
+          "id": 68,
+          "name": "Ada Little"
+        },
+        {
+          "id": 2232,
+          "name": "Jess Landry"
+        },
+        {
+          "id": 2267,
+          "name": "Tirion Lannister"
+        },
+        {
+          "id": 2328,
+          "name": "Nurse Lead"
+        },
+        {
+          "id": 2330,
+          "name": "Nurse Lead"
+        },
+        {
+          "id": 2163,
+          "name": "Test First Name Schedule Test Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2248,
+          "name": "Poorav Modi"
+        },
+        {
+          "id": 344,
+          "name": "Arun Patil"
+        },
+        {
+          "id": 2260,
+          "name": "Hc Provider"
+        },
+        {
+          "id": 2261,
+          "name": "Hc 2 Provider"
+        },
+        {
+          "id": 2262,
+          "name": "Hc 3 Provider"
+        },
+        {
+          "id": 2111,
+          "name": "Dummy Qa"
+        },
+        {
+          "id": 1858,
+          "name": "John Smith"
+        },
+        {
+          "id": 2275,
+          "name": "Silas Santana"
+        },
+        {
+          "id": 2268,
+          "name": "John Snow"
+        },
+        {
+          "id": 1923,
+          "name": "Mahesh Teja"
+        },
+        {
+          "id": 2138,
+          "name": "Sachin Tendulkar"
+        },
+        {
+          "id": 2332,
+          "name": "Testfirstname Testlastname"
+        },
+        {
+          "id": 2333,
+          "name": "Testfirstname1 Testlastname1"
+        },
+        {
+          "id": 2334,
+          "name": "Testfirstname2 Testlastname2"
+        },
+        {
+          "id": 1847,
+          "name": "Bruce Wayne"
+        },
+        {
+          "id": 2197,
+          "name": "Rowland Wehner"
+        },
+        {
+          "id": 2091,
+          "name": "John Yevinoh561@Ztymm.Com"
+        },
+        {
+          "id": 235,
+          "name": "Marya Zlatnik"
+        },
+        {
+          "id": 2242,
+          "name": "Zero Provider Zero Provider"
+        },
+        {
+          "id": 2243,
+          "name": "Zero Provider Zero Provider"
+        },
+        {
+          "id": 2108,
+          "name": "Best Doctor"
+        },
+        {
+          "id": 2112,
+          "name": "Athena Doctor"
+        },
+        {
+          "id": 2254,
+          "name": "Test Doctor"
+        },
+        {
+          "id": 2255,
+          "name": "New Doctor"
+        },
+        {
+          "id": 2107,
+          "name": "New Doctore"
+        },
+        {
+          "id": 2203,
+          "name": "Doeee Johnn"
+        },
+        {
+          "id": 2210,
+          "name": "Chan Kim"
+        },
+        {
+          "id": 2211,
+          "name": "Chan Kim"
+        },
+        {
+          "id": 2155,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2158,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2159,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2162,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2165,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2166,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2167,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2168,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2169,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2170,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2171,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2172,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2173,
+          "name": "Test First Name Minim Laboris Eiusmod"
+        },
+        {
+          "id": 2136,
+          "name": "Tejas Nevage"
+        },
+        {
+          "id": 2300,
+          "name": "Adipisicing Ea Ni Nostrud Ad"
+        },
+        {
+          "id": 2208,
+          "name": "Chan Park"
+        },
+        {
+          "id": 2209,
+          "name": "Chanyeol Park"
+        },
+        {
+          "id": 2246,
+          "name": "Anant Sirsath"
+        },
+        {
+          "id": 2247,
+          "name": "Anant Sirsath"
+        },
+        {
+          "id": 2271,
+          "name": "Previsit Test"
+        },
+        {
+          "id": 2272,
+          "name": "Previsit Test"
+        },
+        {
+          "id": 2198,
+          "name": "Rohan Verma"
+        },
+        {
+          "id": 2199,
+          "name": "Doctor Verma"
+        },
+        {
+          "id": 2174,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2175,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2176,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2177,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2179,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2180,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2181,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2184,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2185,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2186,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2187,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 2188,
+          "name": "Lee Wook"
+        },
+        {
+          "id": 261,
+          "name": "Richard"
+        },
+        {
+          "id": 1918,
+          "name": "Adison"
+        },
+        {
+          "id": 2072,
+          "name": "Ashutosh"
+        },
+        {
+          "id": 2087,
+          "name": ""
+        },
+        {
+          "id": 2102,
+          "name": "Burgess_m"
+        },
+        {
+          "id": 2105,
+          "name": "Av"
+        },
+        {
+          "id": 2128,
+          "name": ""
+        },
+        {
+          "id": 2129,
+          "name": ""
+        },
+        {
+          "id": 2130,
+          "name": ""
+        },
+        {
+          "id": 2140,
+          "name": ""
+        },
+        {
+          "id": 2141,
+          "name": ""
+        },
+        {
+          "id": 2145,
+          "name": ""
+        },
+        {
+          "id": 2147,
+          "name": ""
+        },
+        {
+          "id": 2148,
+          "name": ""
+        },
+        {
+          "id": 2150,
+          "name": ""
+        },
+        {
+          "id": 2151,
+          "name": ""
+        },
+        {
+          "id": 2152,
+          "name": ""
+        },
+        {
+          "id": 2153,
+          "name": ""
+        },
+        {
+          "id": 2154,
+          "name": ""
+        },
+        {
+          "id": 2157,
+          "name": ""
+        },
+        {
+          "id": 2192,
+          "name": "Dd"
+        },
+        {
+          "id": 2195,
+          "name": "Test"
+        },
+        {
+          "id": 2196,
+          "name": ""
+        },
+        {
+          "id": 2200,
+          "name": ""
+        },
+        {
+          "id": 2205,
+          "name": "Test_case_0002"
+        },
+        {
+          "id": 2207,
+          "name": "Young"
+        },
+        {
+          "id": 2231,
+          "name": "Tommy"
+        },
+        {
+          "id": 2249,
+          "name": "Max"
+        },
+        {
+          "id": 2250,
+          "name": "Synchromedics"
+        },
+        {
+          "id": 2251,
+          "name": "Test1"
+        },
+        {
+          "id": 2252,
+          "name": "Synchromedics"
+        },
+        {
+          "id": 2256,
+          "name": "Kyle"
+        },
+        {
+          "id": 2257,
+          "name": "Calvin"
+        },
+        {
+          "id": 2258,
+          "name": "Calvin"
+        },
+        {
+          "id": 2259,
+          "name": "Phil"
+        },
+        {
+          "id": 2263,
+          "name": "Sheldon"
+        },
+        {
+          "id": 2264,
+          "name": "Amy"
+        },
+        {
+          "id": 2269,
+          "name": "Johndoe"
+        },
+        {
+          "id": 2331,
+          "name": "Katie"
+        },
+        {
+          "id": 2344,
+          "name": "Nitesh"
+        },
+        {
+          "id": 2345,
+          "name": "Nitesh"
+        },
+        {
+          "id": 2350,
+          "name": "Askar"
+        },
+        {
+          "id": 2351,
+          "name": "Askar"
+        },
+        {
+          "id": 2353,
+          "name": "Adipisicing Ea Ni1 3dummy"
+        }
+      ]
+    },
+    {
+      "specialty": "Orthopaedic Surgery - Hand",
+      "specialty_id": "040",
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2282,
+          "name": "Chia Wu"
+        }
+      ]
+    },
+    {
+      "specialty": "Orthopedic Surgery",
+      "specialty_id": "020",
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2280,
+          "name": "Neel Patel"
+        }
+      ]
+    },
+    {
+      "specialty": "Orthopedic Surgery Total Joint",
+      "specialty_id": 720,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2281,
+          "name": "David Sun"
+        }
+      ]
+    },
+    {
+      "specialty": "Pediatric Gynecology",
+      "specialty_id": 990,
+      "provider_count": 2,
+      "providers": [
+        {
+          "id": 2297,
+          "name": "Hassan Ali Shah"
+        },
+        {
+          "id": 2298,
+          "name": "Hassan Ali Shah"
+        }
+      ]
+    },
+    {
+      "specialty": "Pediatric Medicine",
+      "specialty_id": "037",
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 111,
+          "name": "Camilla Cremin"
+        }
+      ]
+    },
+    {
+      "specialty": "Pediatric Surgery",
+      "specialty_id": 618,
+      "provider_count": 1,
+      "providers": [
+        {
+          "id": 2194,
+          "name": "Gandalf Grayhame"
+        }
+      ]
+    }
+  ],
+  "total_providers": 199,
+  "unique_specialties": 18
+}

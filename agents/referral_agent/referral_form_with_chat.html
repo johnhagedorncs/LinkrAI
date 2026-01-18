@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Assistant</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: #0b0f19;
+            color: #e5e7eb;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Left Panel - Referral Form */
+        .form-panel {
+            flex: 1;
+            background: #1a1f2e;
+            padding: 30px;
+            overflow-y: auto;
+            border-right: 1px solid #2d3748;
+        }
+
+        .form-header {
+            margin-bottom: 30px;
+        }
+
+        .form-header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #f9fafb;
+            margin-bottom: 8px;
+        }
+
+        .form-header p {
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        .form-section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #f9fafb;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #374151;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #d1d5db;
+            margin-bottom: 6px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px 12px;
+            background: #111827;
+            border: 1px solid #374151;
+            border-radius: 6px;
+            color: #f9fafb;
+            font-size: 14px;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #6366f1;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .field-updated {
+            animation: pulse 0.5s;
+            border-color: #10b981 !important;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        /* Right Panel - Chat */
+        .chat-panel {
+            flex: 1;
+            background: #0b0f19;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid #1f2937;
+            background: #111827;
+        }
+
+        .chat-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #f9fafb;
+        }
+
+        .chat-header p {
+            font-size: 13px;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .message {
+            display: flex;
+            gap: 12px;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .message.user .message-avatar {
+            background: #6366f1;
+            color: white;
+        }
+
+        .message.agent .message-avatar {
+            background: #374151;
+            color: #9ca3af;
+        }
+
+        .message-content {
+            max-width: 75%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .message.user .message-content {
+            background: #6366f1;
+            color: white;
+            border-radius: 12px 12px 4px 12px;
+        }
+
+        .message.agent .message-content {
+            background: #1f2937;
+            color: #e5e7eb;
+            border: 1px solid #374151;
+            border-radius: 12px 12px 12px 4px;
+        }
+
+        .chat-input-container {
+            padding: 20px;
+            border-top: 1px solid #1f2937;
+            background: #111827;
+        }
+
+        .chat-input-wrapper {
+            display: flex;
+            gap: 12px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 16px;
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            color: #f9fafb;
+            font-size: 14px;
+            font-family: inherit;
+            resize: none;
+            height: 44px;
+            transition: all 0.2s;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            border-color: #6366f1;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .send-button {
+            padding: 0 20px;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            height: 44px;
+        }
+
+        .send-button:hover {
+            background: #4f46e5;
+        }
+
+        .send-button:active {
+            transform: scale(0.98);
+        }
+
+        .send-button:disabled {
+            background: #374151;
+            cursor: not-allowed;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #111827;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #374151;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4b5563;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Panel: Referral Form -->
+        <div class="form-panel">
+            <div class="form-header">
+                <h1>Referral Form</h1>
+                <p>Patient referral information</p>
+            </div>
+
+            <!-- Patient Information -->
+            <div class="form-section">
+                <div class="section-title">Patient Information</div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Patient ID</label>
+                        <input type="text" id="patientid" placeholder="Enter patient ID">
+                    </div>
+                    <div class="form-group">
+                        <label>Encounter ID</label>
+                        <input type="text" id="encounterid" placeholder="Enter encounter ID">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Patient Last Name</label>
+                        <input type="text" id="patient-lastname" placeholder="Enter patient last name">
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" id="date">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diagnosis -->
+            <div class="form-section">
+                <div class="section-title">Diagnosis</div>
+                <div class="form-group">
+                    <label>Diagnosis</label>
+                    <input type="text" id="diagnosis" placeholder="Enter diagnosis">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>ICD-10 Code</label>
+                        <input type="text" id="icd10" placeholder="e.g., R07.9">
+                    </div>
+                    <div class="form-group">
+                        <label>SNOMED Code</label>
+                        <input type="text" id="snomed" placeholder="e.g., 29857009">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Clinical Notes</label>
+                    <textarea id="clinical-notes" placeholder="Enter clinical notes"></textarea>
+                </div>
+            </div>
+
+            <!-- Referral Details -->
+            <div class="form-section">
+                <div class="section-title">Referral Details</div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Specialty</label>
+                        <input type="text" id="specialty" placeholder="e.g., Cardiology">
+                    </div>
+                    <div class="form-group">
+                        <label>Order Type ID</label>
+                        <input type="text" id="ordertypeid" placeholder="Enter order type ID">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Priority</label>
+                        <select id="priority">
+                            <option value="urgent">Urgent</option>
+                            <option value="non-urgent">Non-Urgent</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Reason for Referral</label>
+                    <textarea id="reason" placeholder="Enter reason for referral"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Provider Notes</label>
+                    <textarea id="provider-notes" placeholder="Additional provider notes"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel: Chat Interface -->
+        <div class="chat-panel">
+            <div class="chat-header">
+                <h2>Chatbot</h2>
+                <p>This assistant can help you with referral completion</p>
+            </div>
+
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be added here dynamically -->
+            </div>
+
+            <div class="chat-input-container">
+                <div class="chat-input-wrapper">
+                    <textarea
+                        class="chat-input"
+                        id="chat-input"
+                        placeholder="Type a message..."
+                        rows="1"></textarea>
+                    <button class="send-button" id="send-button">
+                        <span>➤</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // WebSocket connection for form updates
+        let ws = null;
+
+        function connectWebSocket() {
+            ws = new WebSocket('ws://localhost:8080/ws');
+
+            ws.onopen = () => {
+                console.log('WebSocket connected');
+            };
+
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                if (data.type === 'field_update') {
+                    updateFormField(data.field, data.value);
+                }
+            };
+
+            ws.onerror = (error) => {
+                console.error('WebSocket error:', error);
+            };
+
+            ws.onclose = () => {
+                console.log('WebSocket disconnected, reconnecting...');
+                setTimeout(connectWebSocket, 3000);
+            };
+        }
+
+        function updateFormField(fieldName, value) {
+            const fieldMap = {
+                'patientid': 'patientid',
+                'encounterid': 'encounterid',
+                'patientlastname': 'patient-lastname',
+                'date': 'date',
+                'diagnosis': 'diagnosis',
+                'icd10': 'icd10',
+                'snomed': 'snomed',
+                'clinicalnotes': 'clinical-notes',
+                'specialty': 'specialty',
+                'ordertypeid': 'ordertypeid',
+                'priority': 'priority',
+                'reason': 'reason',
+                'providernotes': 'provider-notes'
+            };
+
+            const elementId = fieldMap[fieldName];
+            if (elementId) {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.value = value;
+                    element.classList.add('field-updated');
+                    setTimeout(() => {
+                        element.classList.remove('field-updated');
+                    }, 1000);
+                }
+            }
+        }
+
+        // Chat functionality
+        const chatMessages = document.getElementById('chat-messages');
+        const chatInput = document.getElementById('chat-input');
+        const sendButton = document.getElementById('send-button');
+
+        function addMessage(content, role) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+
+            const avatar = document.createElement('div');
+            avatar.className = 'message-avatar';
+            avatar.textContent = role === 'user' ? 'U' : 'A';
+
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = content;
+
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(contentDiv);
+
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function sendMessage() {
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // Add user message
+            addMessage(message, 'user');
+            chatInput.value = '';
+
+            // Simulate agent response (no backend)
+            setTimeout(() => {
+                addMessage('Chat backend is currently disabled. The form can still receive real-time updates via WebSocket.', 'agent');
+            }, 500);
+        }
+
+        // Event listeners
+        sendButton.addEventListener('click', sendMessage);
+
+        chatInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Auto-resize textarea
+        chatInput.addEventListener('input', function() {
+            this.style.height = '44px';
+            this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+        });
+
+        // Initialize WebSocket connection
+        connectWebSocket();
+
+        // Add welcome message
+        addMessage('Hello! I can help you with referral creation. How can I assist you today?', 'agent');
+    </script>
+</body>
+</html>

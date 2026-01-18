@@ -1,0 +1,18 @@
+# Messaging Agent Dependencies
+
+# Core A2A and MCP
+mcp>=1.0.0
+a2a-sdk>=0.1.0
+
+# AWS Bedrock
+boto3>=1.40.0
+
+# Web server
+uvicorn>=0.38.0
+
+# CLI and utilities
+click>=8.0.0
+python-dotenv>=1.0.0
+
+# HTTP client for Twilio API
+requests>=2.31.0

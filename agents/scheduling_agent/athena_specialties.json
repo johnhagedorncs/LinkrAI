@@ -1,0 +1,110 @@
+{
+  "total_providers": 198,
+  "total_specialties": 17,
+  "specialties": {
+    "003": {
+      "name": "Allergy/Immunology",
+      "count": 2,
+      "example_provider": "Anissa Durgan"
+    },
+    "006": {
+      "name": "Cardiology",
+      "count": 7,
+      "example_provider": "Euna Kris"
+    },
+    "008": {
+      "name": "Family Medicine",
+      "count": 13,
+      "example_provider": "Adam Bricker"
+    },
+    "011": {
+      "name": "Internal Medicine",
+      "count": 1,
+      "example_provider": "Medscan"
+    },
+    "020": {
+      "name": "Orthopedic Surgery",
+      "count": 1,
+      "example_provider": "Neel Patel"
+    },
+    "037": {
+      "name": "Pediatric Medicine",
+      "count": 1,
+      "example_provider": "Camilla Cremin"
+    },
+    "040": {
+      "name": "Orthopaedic Surgery - Hand",
+      "count": 1,
+      "example_provider": "Chia Wu"
+    },
+    "078": {
+      "name": "Cardiac Surgery",
+      "count": 1,
+      "example_provider": "Hassan Ali Shah"
+    },
+    "100": {
+      "name": "Neonatology",
+      "count": 1,
+      "example_provider": "John Michel"
+    },
+    "104": {
+      "name": "Hospitalist",
+      "count": 1,
+      "example_provider": "Rowland Wehner"
+    },
+    "618": {
+      "name": "Pediatric Surgery",
+      "count": 1,
+      "example_provider": "Gandalf Grayhame"
+    },
+    "625": {
+      "name": "Ambulatory Surgical Center",
+      "count": 5,
+      "example_provider": "Landry23"
+    },
+    "635": {
+      "name": "Adolescent Medicine",
+      "count": 7,
+      "example_provider": "Example Doctor"
+    },
+    "636": {
+      "name": "Bone Marrow Transplant",
+      "count": 1,
+      "example_provider": "Kelly_f"
+    },
+    "660": {
+      "name": "Acupuncture",
+      "count": 9,
+      "example_provider": "Provider Dec"
+    },
+    "720": {
+      "name": "Orthopedic Surgery Total Joint",
+      "count": 1,
+      "example_provider": "David Sun"
+    },
+    "990": {
+      "name": "Pediatric Gynecology",
+      "count": 1,
+      "example_provider": "Hassan Ali Shah"
+    }
+  },
+  "specialty_to_id": {
+    "allergy/immunology": "003",
+    "cardiology": "006",
+    "family medicine": "008",
+    "internal medicine": "011",
+    "orthopedic surgery": "020",
+    "pediatric medicine": "037",
+    "orthopaedic surgery - hand": "040",
+    "cardiac surgery": "078",
+    "neonatology": "100",
+    "hospitalist": "104",
+    "pediatric surgery": "618",
+    "ambulatory surgical center": "625",
+    "adolescent medicine": "635",
+    "bone marrow transplant": "636",
+    "acupuncture": "660",
+    "orthopedic surgery total joint": "720",
+    "pediatric gynecology": "990"
+  }
+}
