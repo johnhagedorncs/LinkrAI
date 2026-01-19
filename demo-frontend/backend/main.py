@@ -95,15 +95,157 @@ class ProcessResponse(BaseModel):
     results: Dict[str, Any]
 
 
+def get_mock_agent_response(transcript: str) -> Dict[str, Any]:
+    """
+    Generate mock agent response for demo mode when host agent is not available.
+
+    Returns a realistic agent response structure that mimics what the real
+    host agent would return after orchestrating referral, scheduling, and messaging agents.
+    """
+    return {
+        "actions_taken": [
+            {"agent": "referral", "action": "create_referral"},
+            {"agent": "scheduling", "action": "find_appointments"},
+            {"agent": "messaging", "action": "send_sms"}
+        ],
+        "tool_calls": [
+            {
+                "name": "send_message",
+                "args": {
+                    "agent_name": "Referral Agent",
+                    "task": "Create a medical referral for oncology consultation based on prostate cancer diagnosis (Gleason 7 adenocarcinoma, PSA 12.4)"
+                }
+            },
+            {
+                "name": "send_message",
+                "args": {
+                    "agent_name": "Scheduling Agent",
+                    "task": "Find next available oncology appointments for patient 12345"
+                }
+            },
+            {
+                "name": "send_message",
+                "args": {
+                    "agent_name": "Messaging Agent",
+                    "task": "Send SMS to patient at 5555551234 with referral confirmation and appointment options"
+                }
+            }
+        ],
+        "tool_responses": [
+            {
+                "name": "send_message",
+                "response": {
+                    "result": {
+                        "artifacts": [
+                            {
+                                "parts": [
+                                    {
+                                        "kind": "text",
+                                        "text": "Referral created successfully. Referral ID: REF-789456. Patient will be contacted by oncology department within 5-7 business days."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "send_message",
+                "response": {
+                    "result": {
+                        "artifacts": [
+                            {
+                                "parts": [
+                                    {
+                                        "kind": "text",
+                                        "text": "Found 3 available appointment slots:\n1. Dr. Sarah Chen - Jan 25, 2026 at 10:00 AM\n2. Dr. Michael Rodriguez - Jan 26, 2026 at 2:30 PM\n3. Dr. Emily Thompson - Jan 27, 2026 at 9:00 AM"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "send_message",
+                "response": {
+                    "result": {
+                        "artifacts": [
+                            {
+                                "parts": [
+                                    {
+                                        "kind": "text",
+                                        "text": "SMS sent successfully to 555-555-1234. Message: 'Your oncology referral has been created. Available appointments: Jan 25 (Dr. Chen), Jan 26 (Dr. Rodriguez), Jan 27 (Dr. Thompson). Reply with preferred date or call 555-0100 to schedule.'"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "subagent_tool_calls": {
+            "referral": [
+                {
+                    "tool": "create_referral",
+                    "input": {
+                        "patient_id": "12345",
+                        "specialty": "oncology",
+                        "diagnosis_code": "C61",
+                        "diagnosis_description": "Malignant neoplasm of prostate (Gleason 7 adenocarcinoma)",
+                        "priority": "routine",
+                        "clinical_notes": "PSA 12.4, biopsy confirms prostate cancer. Patient needs oncology consultation for staging and treatment planning."
+                    },
+                    "output": "✅ Referral created successfully\nReferral ID: REF-789456\nSpecialty: Oncology\nPriority: Routine\nStatus: Pending oncology department review"
+                }
+            ],
+            "scheduling": [
+                {
+                    "tool": "search_appointments",
+                    "input": {
+                        "patient_id": "12345",
+                        "specialty": "oncology",
+                        "department_id": "150",
+                        "days_ahead": 30
+                    },
+                    "output": "✅ Found 3 available appointments:\n\n1. Provider: Dr. Sarah Chen (ID: 450)\n   Date: January 25, 2026\n   Time: 10:00 AM\n   Location: Cancer Treatment Center\n\n2. Provider: Dr. Michael Rodriguez (ID: 451)\n   Date: January 26, 2026\n   Time: 2:30 PM\n   Location: Oncology Clinic - Building B\n\n3. Provider: Dr. Emily Thompson (ID: 452)\n   Date: January 27, 2026\n   Time: 9:00 AM\n   Location: Cancer Treatment Center"
+                }
+            ],
+            "messaging": [
+                {
+                    "tool": "send_sms",
+                    "input": {
+                        "phone_number": "5555551234",
+                        "message": "Your oncology referral has been created (REF-789456). Available appointments: Jan 25 at 10AM (Dr. Chen), Jan 26 at 2:30PM (Dr. Rodriguez), Jan 27 at 9AM (Dr. Thompson). Reply with preferred date or call 555-0100 to schedule."
+                    },
+                    "output": "✅ SMS sent successfully\nRecipient: +1-555-555-1234\nMessage ID: SM-abc123def456\nStatus: Delivered\nTimestamp: 2026-01-19 14:30:22 UTC"
+                }
+            ]
+        },
+        "final_response": "Successfully processed medical transcript. Created oncology referral (REF-789456), found 3 available appointments, and notified patient via SMS."
+    }
+
+
 @app.get("/")
 async def root():
     """Health check endpoint"""
+    # Check if host agent is available
+    import httpx
+    host_agent_available = False
+    try:
+        async with httpx.AsyncClient(timeout=2.0) as client:
+            response = await client.get("http://localhost:8084/")
+            host_agent_available = response.status_code == 200
+    except:
+        pass
+
     return {
         "status": "healthy",
         "service": "Healthcare Agent Demo API",
         "scribe_available": SCRIBE_AVAILABLE,
         "aws_available": AWS_AVAILABLE,
-        "mode": "production" if (SCRIBE_AVAILABLE and AWS_AVAILABLE) else "mock"
+        "host_agent_available": host_agent_available,
+        "mode": "production" if (SCRIBE_AVAILABLE and AWS_AVAILABLE and host_agent_available) else "mock"
     }
 
 
@@ -216,6 +358,10 @@ async def process_transcript(request: ProcessRequest):
                     )
 
                 agent_response = response.json()
+        except httpx.ConnectError:
+            # Host agent not running - use mock mode
+            print("⚠️  Host agent not available - using mock agent responses")
+            agent_response = get_mock_agent_response(transcript)
         except Exception as e:
             raise
 
@@ -353,13 +499,6 @@ async def process_transcript(request: ProcessRequest):
             results=results
         )
 
-    except httpx.ConnectError:
-        print("❌ Could not connect to host agent API on port 8084")
-        print("   Make sure to run: python A2A-Framework/host_agent/api_server.py")
-        raise HTTPException(
-            status_code=503,
-            detail="Host agent API is not running. Please start it on port 8084."
-        )
     except Exception as e:
         print(f"❌ Error in process_transcript: {e}")
         import traceback
