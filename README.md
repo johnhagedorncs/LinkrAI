@@ -92,7 +92,7 @@ LinkrAI is a multi-agent AI system designed for healthcare automation. It demons
 
 ## 🚀 Live Demo
 
-**[Try the Live Demo →](https://your-demo-url.vercel.app)**
+**[Try the Live Demo →](https://linkrai-johnhagedorn.vercel.app)**
 
 The live demo runs in **mock mode** (no AWS credentials required) with pre-loaded medical scenarios.
 
@@ -153,7 +153,7 @@ The live demo runs in **mock mode** (no AWS credentials required) with pre-loade
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/LinkrAI.git
+git clone https://github.com/johnhagedorn/LinkrAI.git
 cd LinkrAI
 ```
 
@@ -339,8 +339,8 @@ Built by John Hagedorn as a demonstration of:
 - EHR API integration (Athena Health)
 
 **Contact**: [your.email@example.com](mailto:your.email@example.com)
-**LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-**Portfolio**: [yourportfolio.com](https://yourportfolio.com)
+**LinkedIn**: [https://linkrai-johnhagedorn.vercel.app](https://linkrai-johnhagedorn.vercel.app)
+**Portfolio**: [https://linkrai-johnhagedorn.vercel.app](https://linkrai-johnhagedorn.vercel.app)
 
 ---
 
