@@ -297,20 +297,27 @@ async def upload_and_transcribe(audio: UploadFile = File(...)):
             ))
         else:
             # Mock transcription for testing
-#             transcript_text = """Speaker 0: The patient is complaining of chest pain that started this morning.
-# Speaker 1: Yes doctor, it's a sharp pain in the center of my chest, especially when I breathe deeply.
-# Speaker 0: Any shortness of breath or palpitations?
-# Speaker 1: A little shortness of breath, yes.
-# Speaker 0: I think we should get you to see a cardiologist. I'll create a referral for you."""
-            transcript_text= """{
-  "transcript": "Doctor: Good morning. Come on in and have a seat. I've got your recent lab results and biopsy back. How are you feeling today?\n\nPatient: Um, I'm doing okay, I guess. A little nervous, to be honest. You said you wanted to talk about some test results?\n\nDoctor: Yes, I do. So a few weeks ago we checked your PSA level, and it came back elevated at 12.4, which is higher than we'd like to see. We then did a biopsy to get a better picture of what's going on, and I'm afraid the results show prostate cancer.\n\nPatient: Oh wow. Okay. Um... is this serious?\n\nDoctor: I understand this is difficult news. The good news is we caught it, and based on the biopsy findings, we're looking at what's called a Gleason 7 adenocarcinoma. That tells us about the grade and type of cancer cells. Now, I've examined you today and everything else looks stable, but we need to move forward with the next steps.\n\nPatient: What does that mean? What happens now?\n\nDoctor: Well, that's why I'm referring you to an oncologist. They're a cancer specialist who will do additional staging tests to see if the cancer has spread anywhere else, and more importantly, they'll discuss all your treatment options with you. Depending on the staging, you might have surgery, radiation, or other therapies available to you.\n\nPatient: So I need to see another doctor?\n\nDoctor: Yes, I'm going to get you set up with our oncology department. They're excellent, and they really specialize in cases like yours. The referral will go through today, and you should hear from them within the next week or so to schedule your appointment. In the meantime, don't hesitate to call if you have any questions or concerns.\n\nPatient: Okay. Thank you, doctor.\n\nDoctor: You're welcome. We're going to get you through this.",
-  "patient_id": "12345",
-  "encounter_id": 67890,
-  "provider_id": "100",
-  "department_id": "150",
-  "phone_number": "5555551234",
-  "cost": 450.00
-}"""
+            transcript_text = """Doctor: Good morning. Come on in and have a seat. I've got your recent lab results and biopsy back. How are you feeling today?
+
+Patient: Um, I'm doing okay, I guess. A little nervous, to be honest. You said you wanted to talk about some test results?
+
+Doctor: Yes, I do. So a few weeks ago we checked your PSA level, and it came back elevated at 12.4, which is higher than we'd like to see. We then did a biopsy to get a better picture of what's going on, and I'm afraid the results show prostate cancer.
+
+Patient: Oh wow. Okay. Um... is this serious?
+
+Doctor: I understand this is difficult news. The good news is we caught it, and based on the biopsy findings, we're looking at what's called a Gleason 7 adenocarcinoma. That tells us about the grade and type of cancer cells. Now, I've examined you today and everything else looks stable, but we need to move forward with the next steps.
+
+Patient: What does that mean? What happens now?
+
+Doctor: Well, that's why I'm referring you to an oncologist. They're a cancer specialist who will do additional staging tests to see if the cancer has spread anywhere else, and more importantly, they'll discuss all your treatment options with you. Depending on the staging, you might have surgery, radiation, or other therapies available to you.
+
+Patient: So I need to see another doctor?
+
+Doctor: Yes, I'm going to get you set up with our oncology department. They're excellent, and they really specialize in cases like yours. The referral will go through today, and you should hear from them within the next week or so to schedule your appointment. In the meantime, don't hesitate to call if you have any questions or concerns.
+
+Patient: Okay. Thank you, doctor.
+
+Doctor: You're welcome. We're going to get you through this."""
             speaker_count = 2
 
         return TranscriptResponse(
