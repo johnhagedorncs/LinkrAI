@@ -117,9 +117,14 @@ function App() {
               Stop Recording
             </button>
           )}
-          {step !== 'idle' && step !== 'recording' && (
+          {(step === 'uploading' || step === 'transcribing' || step === 'processing') && (
             <div className="progress">
               <div className="spinner"></div>
+              <p>{getStepMessage()}</p>
+            </div>
+          )}
+          {step === 'complete' && (
+            <div className="progress">
               <p>{getStepMessage()}</p>
             </div>
           )}
