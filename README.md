@@ -2,8 +2,7 @@
 
 > An AI-powered healthcare automation system that intelligently coordinates multiple specialized agents to handle medical referrals, appointment scheduling, and patient communication.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://your-demo-url.vercel.app)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Live Demo](https://linkrai-johnhagedorn.vercel.app)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![AWS](https://img.shields.io/badge/AWS-Bedrock%20%7C%20S3-FF9900?logo=amazon-aws)](https://aws.amazon.com/)
